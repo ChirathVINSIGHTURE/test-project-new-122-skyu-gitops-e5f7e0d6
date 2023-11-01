@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations: {}
+  labels:
+    app: praisethelord
+    application-id: app_a1204ab2-b2d8-4745-9671-f42882fde1df
+  name: praisethelord
+spec:
+  selector:
+    app: praisethelord

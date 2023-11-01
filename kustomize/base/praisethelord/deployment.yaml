@@ -1,0 +1,15 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: praisethelord
+  labels:
+    app: praisethelord
+    application-id: app_a1204ab2-b2d8-4745-9671-f42882fde1df
+spec:
+  selector:
+    matchLabels:
+      app: praisethelord
+  template:
+    metadata:
+      labels:
+        app: praisethelord
