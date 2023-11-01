@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-project-new-122-dev
+  labels:
+    environment-id: env_20916689-248c-41d9-a953-a6c7dd35f673
+    project-id: project_cc2e3c43-a89f-4a65-85a2-8cad3884f44c
+    project-name: test-project-new-122
+    environment-name: dev
+    organization-id: org_2efb54be-5fb5-4780-ad77-0878afc1614d
